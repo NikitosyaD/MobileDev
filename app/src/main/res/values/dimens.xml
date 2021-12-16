@@ -25,7 +25,7 @@
     <dimen name="message_top_margin">72dp</dimen>
     <dimen name="message_bottom_margin">40dp</dimen>
     <dimen name="replays1_margin_top">146dp</dimen>
-    <dimen name="replays23_margin_top">127</dimen>
+    <dimen name="replays23_margin_top">127dp</dimen>
     <dimen name="replays_left_margin">16dp</dimen>
     <dimen name="replays_right_margin">229dp</dimen>
     <dimen name="replays_bottom_margin">16dp</dimen>
@@ -36,9 +36,13 @@
     <dimen name="menu_margin_top">15dp</dimen>
     <dimen name="menu_margin_bottom">17dp</dimen>
     <dimen name="bag_margin_left">24dp</dimen>
+    <dimen name="bag_margin_right">312dp</dimen>
     <dimen name="book_margin_left">96dp</dimen>
+    <dimen name="book_margin_right">240dp</dimen>
     <dimen name="cart_margin_left">168dp</dimen>
+    <dimen name="cart_margin_right">168dp</dimen>
     <dimen name="label_margin_left">240dp</dimen>
+    <dimen name="label_margin_right">96dp</dimen>
     <dimen name="heart_margin_top">6dp</dimen>
     <dimen name="heart_margin_left">312dp</dimen>
     <dimen name="heart_margin_bottom">26dp</dimen>

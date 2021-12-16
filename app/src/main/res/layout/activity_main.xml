@@ -237,10 +237,11 @@
         android:layout_marginTop="@dimen/margin_top_menu">
 
         <ImageView
-            android:layout_width="@dimen/icons_size"
-            android:layout_height="@dimen/icons_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/bag_margin_left"
             android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginRight="@dimen/bag_margin_right"
             android:layout_marginBottom="@dimen/menu_margin_bottom"
             android:src="@drawable/ic_bag" />
 
@@ -249,6 +250,7 @@
             android:layout_height="@dimen/icons_size"
             android:layout_marginLeft="@dimen/book_margin_left"
             android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginRight="@dimen/book_margin_right"
             android:layout_marginBottom="@dimen/menu_margin_bottom"
             android:src="@drawable/ic_book" />
 
@@ -257,6 +259,7 @@
             android:layout_height="@dimen/icons_size"
             android:layout_marginLeft="@dimen/cart_margin_left"
             android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginRight="@dimen/book_margin_right"
             android:layout_marginBottom="@dimen/menu_margin_bottom"
             android:src="@drawable/ic_cart" />
 
@@ -265,16 +268,17 @@
             android:layout_height="@dimen/icons_size"
             android:layout_marginLeft="@dimen/label_margin_left"
             android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginRight="@dimen/label_margin_right"
             android:layout_marginBottom="@dimen/menu_margin_bottom"
             android:src="@drawable/ic_label" />
 
         <ImageView
             android:layout_width="@dimen/icons_size"
             android:layout_height="@dimen/icons_size"
-            android:layout_gravity="end"
             android:layout_marginLeft="@dimen/heart_margin_left"
             android:layout_marginTop="@dimen/heart_margin_top"
             android:layout_marginRight="@dimen/heart_margin_right"
+            android:layout_marginBottom="@dimen/heart_margin_bottom"
             android:src="@drawable/ic_heart" />
 
         <TextView
