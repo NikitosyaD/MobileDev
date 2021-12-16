@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/screen_width"
+    android:layout_height="@dimen/screen_height"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/BackSearch_size"
+            android:layout_height="@dimen/BackSearch_size"
+            android:layout_marginLeft="@dimen/border_margin"
+            android:layout_marginTop="@dimen/border_margin"
+            android:layout_marginBottom="@dimen/border_margin"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/notifications_width"
+            android:layout_marginTop="@dimen/notifications_height"
+            android:layout_marginRight="@dimen/notifications_width"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/notifications"
+            android:textColor="@color/black"
+            android:textSize="@dimen/notifications_TextSize" />
+
+        <ImageView
+            android:layout_width="@dimen/BackSearch_size"
+            android:layout_height="@dimen/BackSearch_size"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/border_margin"
+            android:layout_marginRight="@dimen/border_margin"
+            android:layout_marginBottom="@dimen/border_margin"
+            android:src="@drawable/ic_search" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_margin"
+        android:layout_marginTop="@dimen/margin_top_of_1message"
+        android:background="@color/gray">
+
+
+        <ImageView
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_marginLeft="@dimen/avatar_LeftMargin"
+            android:layout_marginTop="@dimen/avatar_TopMargin"
+            android:src="@drawable/avatar_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/name_margin_left"
+            android:layout_marginTop="@dimen/name_margin_top"
+            android:fontFamily="sans-serif"
+            android:text="@string/Roman_Kamushken"
+            android:textColor="@color/black"
+            android:textSize="@dimen/name_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/date_margin_left"
+            android:layout_marginTop="@dimen/date_margin_top"
+            android:text="@string/_2_days_ago"
+            android:textSize="@dimen/date_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/message_LR_margin"
+            android:layout_marginTop="@dimen/message_top_margin"
+            android:layout_marginRight="@dimen/message_LR_margin"
+            android:fontFamily="@font/roboto"
+            android:text="@string/message_of_Roman"
+            android:textColor="@color/black"
+            android:textSize="@dimen/message_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/replays_left_margin"
+            android:layout_marginTop="@dimen/replays1_margin_top"
+            android:layout_marginRight="@dimen/replays_right_margin"
+            android:layout_marginBottom="@dimen/replays_bottom_margin"
+            android:text="@string/replays"
+            android:textColor="@color/blue" />
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_gravity="end"
+            android:layout_marginLeft="@dimen/like_left_margin"
+            android:layout_marginTop="@dimen/like1_top_margin"
+            android:layout_marginRight="@dimen/like_right_margin"
+            android:src="@drawable/ic_like" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_margin"
+        android:layout_marginTop="@dimen/margin_top_of_2message"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_marginLeft="@dimen/avatar_LeftMargin"
+            android:layout_marginTop="@dimen/avatar_TopMargin"
+            android:src="@drawable/avatar_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/name_margin_left"
+            android:layout_marginTop="@dimen/name_margin_top"
+            android:fontFamily="sans-serif"
+            android:text="@string/Tina_Turbina"
+            android:textColor="@color/black"
+            android:textSize="@dimen/name_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/date_margin_left"
+            android:layout_marginTop="@dimen/date_margin_top"
+            android:text="@string/_18_minutes_ago"
+            android:textSize="@dimen/date_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/message_LR_margin"
+            android:layout_marginTop="@dimen/message_top_margin"
+            android:layout_marginRight="@dimen/message_LR_margin"
+            android:fontFamily="@font/roboto"
+            android:text="@string/message_of_the_guest"
+            android:textColor="@color/black"
+            android:textSize="@dimen/message_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/replays_left_margin"
+            android:layout_marginTop="@dimen/replays23_margin_top"
+            android:layout_marginRight="@dimen/replays_right_margin"
+            android:layout_marginBottom="@dimen/replays_bottom_margin"
+            android:text="@string/replays"
+            android:textColor="@color/blue" />
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_gravity="end"
+            android:layout_marginLeft="@dimen/like_left_margin"
+            android:layout_marginTop="@dimen/like23_top_margin"
+            android:layout_marginRight="@dimen/like_right_margin"
+            android:src="@drawable/ic_like" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_margin"
+        android:layout_marginTop="@dimen/margin_top_of_3message"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_marginLeft="@dimen/avatar_LeftMargin"
+            android:layout_marginTop="@dimen/avatar_TopMargin"
+            android:src="@drawable/avatar_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/name_margin_left"
+            android:layout_marginTop="@dimen/name_margin_top"
+            android:fontFamily="sans-serif"
+            android:text="@string/Tomek_Kuwalskij"
+            android:textColor="@color/black"
+            android:textSize="@dimen/name_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/date_margin_left"
+            android:layout_marginTop="@dimen/date_margin_top"
+            android:text="@string/_2_days_ago"
+            android:textSize="@dimen/date_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/message_LR_margin"
+            android:layout_marginTop="@dimen/message_top_margin"
+            android:layout_marginRight="@dimen/message_LR_margin"
+            android:fontFamily="@font/roboto"
+            android:text="@string/message_of_the_guest"
+            android:textColor="@color/black"
+            android:textSize="@dimen/message_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/replays_left_margin"
+            android:layout_marginTop="@dimen/replays23_margin_top"
+            android:layout_marginRight="@dimen/replays_right_margin"
+            android:layout_marginBottom="@dimen/replays_bottom_margin"
+            android:text="@string/replays"
+            android:textColor="@color/blue" />
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_gravity="end"
+            android:layout_marginLeft="@dimen/like_left_margin"
+            android:layout_marginTop="@dimen/like23_top_margin"
+            android:layout_marginRight="@dimen/like_right_margin"
+            android:src="@drawable/ic_like" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_menu">
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_marginLeft="@dimen/bag_margin_left"
+            android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginBottom="@dimen/menu_margin_bottom"
+            android:src="@drawable/ic_bag" />
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_marginLeft="@dimen/book_margin_left"
+            android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginBottom="@dimen/menu_margin_bottom"
+            android:src="@drawable/ic_book" />
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_marginLeft="@dimen/cart_margin_left"
+            android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginBottom="@dimen/menu_margin_bottom"
+            android:src="@drawable/ic_cart" />
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_marginLeft="@dimen/label_margin_left"
+            android:layout_marginTop="@dimen/menu_margin_top"
+            android:layout_marginBottom="@dimen/menu_margin_bottom"
+            android:src="@drawable/ic_label" />
+
+        <ImageView
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_gravity="end"
+            android:layout_marginLeft="@dimen/heart_margin_left"
+            android:layout_marginTop="@dimen/heart_margin_top"
+            android:layout_marginRight="@dimen/heart_margin_right"
+            android:src="@drawable/ic_heart" />
+
+        <TextView
+            android:layout_width="@dimen/account_width"
+            android:layout_height="@dimen/account_height"
+            android:layout_marginLeft="@dimen/account_margin_left"
+            android:layout_marginTop="@dimen/account_margin_top"
+            android:layout_marginBottom="@dimen/account_margin_bottom"
+            android:fontFamily="@font/roboto"
+            android:text="@string/account"
+
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/account_size" />
+
+    </FrameLayout>
+</LinearLayout>

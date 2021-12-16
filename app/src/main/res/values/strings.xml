@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab 2 Deminov Nikita</string>
+    <string name="notifications">Notifications</string>
+    <string name="Roman_Kamushken">Roman Kamushken</string>
+    <string name="_2_days_ago">2 days ago</string>
+    <string name="message_of_Roman">Check out awesome updates for Android design kit for Figma. Now more screens and more categories.</string>
+    <string name="replays">117 REPLAYS</string>
+    <string name="Tina_Turbina">Tina Turbina</string>
+    <string name="message_of_the_guest">“into component container and with resizing constraints set????”</string>
+    <string name="_18_minutes_ago">18 minutes ago</string>
+    <string name="Tomek_Kuwalskij">Tomek Kuwalskij</string>
+    <string name="account">Account</string>
+</resources>
